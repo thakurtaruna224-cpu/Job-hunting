@@ -18,7 +18,7 @@ public class Expressions {
 		Thread.sleep(500);
 		
 		WebElement pwd = driver.findElement(By.cssSelector("._9npi"));
-		pwd.sendKeys("12345678");
+		pwd.sendKeys("12345");
 		Thread.sleep(500);
 		
 //		WebElement loginButton = driver.findElement(By.cssSelector("button"));
@@ -30,11 +30,11 @@ public class Expressions {
 		Thread.sleep(500);
 		
 		WebElement fn = driver.findElement(By.cssSelector("._5dba"));
-		fn.sendKeys("Saurabh");
+		fn.sendKeys("thakur");
 		Thread.sleep(500);
 		
 		WebElement ln = driver.findElement(By.cssSelector("input[name='lastname']"));
-		ln.sendKeys("Maurya");
+		ln.sendKeys("taruna");
 		Thread.sleep(500);
 
 		
@@ -42,4 +42,5 @@ public class Expressions {
 		driver.quit();
 		
 	}
+
 }
